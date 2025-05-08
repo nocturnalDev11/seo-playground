@@ -18,8 +18,8 @@ export default function BlogList() {
 
 			<main className="max-w-3xl mx-auto px-4 py-12">
 				<header className="mb-8">
-					<h1 className="text-4xl font-bold text-gray-900 mb-2">SEO Blog Posts</h1>
-					<p className="text-gray-600 text-lg">
+					<h1 className="text-4xl font-bold text-gray-900 mb-2 dark:text-white">SEO Blog Posts</h1>
+					<p className="text-gray-600 text-lg dark:text-gray-100">
 						Explore sample blog posts created to test SEO performance in Next.js.
 					</p>
 				</header>
@@ -29,10 +29,10 @@ export default function BlogList() {
 						<li key={post.slug}>
 							<Link
 								href={`/blog/${post.slug}`}
-								className="block p-5 rounded-xl border border-gray-200 hover:bg-gray-50 transition-shadow shadow-sm hover:shadow-md"
+								className="block p-5 rounded-xl border border-gray-200 hover:bg-gray-50 dark:border-gray-600 dark:hover:bg-gray-700 transition-shadow shadow-sm hover:shadow-md"
 							>
-								<h2 className="text-2xl font-semibold text-blue-700">{post.title}</h2>
-								<p className="text-sm text-gray-500 mt-1">Read more →</p>
+								<h2 className="text-2xl font-semibold text-indigo-700 dark:text-indigo-400">{post.title}</h2>
+								<p className="text-sm text-gray-500 mt-1 dark:text-gray-300">Read more →</p>
 							</Link>
 						</li>
 					))}
