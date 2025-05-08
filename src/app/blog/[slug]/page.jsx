@@ -15,7 +15,10 @@ const blogData = {
 
 export default function BlogPost() {
 	const { slug } = useParams();
-	const post = blogData[slug] || { title: 'Not Found', description: 'No content available.' };
+	const post = blogData[slug] || {
+		title: 'Not Found',
+		description: 'No content available.',
+	};
 
 	const structuredData = {
 		"@context": "https://schema.org",
@@ -47,10 +50,12 @@ export default function BlogPost() {
 				__html: JSON.stringify(structuredData),
 				}}
 			/>
-			<main>
-				<article>
-				<h1>{post.title}</h1>
-				<p>{post.description}</p>
+
+			<main className="max-w-3xl mx-auto px-4 py-10">
+				<article className="prose prose-lg">
+				<h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+				<p className="text-gray-700">{post.description}</p>
+				{/* Optional: Add markdown or content block here */}
 				</article>
 			</main>
 		</>
