@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<head>
+				<meta name="robots" content="index, follow" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="google-site-verification" content="tWz2OviQV3035YWFV_S7JWYB2AfmnIoAih4o8sZUBac" />
 			</head>
