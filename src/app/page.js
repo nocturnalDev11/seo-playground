@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Seo from "@/components/Seo";
-import hero from '../../public/images/globe.svg';
+import hero from '../../public/globe.svg';
 
 export default function Home() {
 	return (

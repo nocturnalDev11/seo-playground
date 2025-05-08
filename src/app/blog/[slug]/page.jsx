@@ -28,7 +28,7 @@ export default function BlogPost() {
 			"name": "SEO Playground",
 			"logo": {
 				"@type": "ImageObject",
-				"url": "https://seo-playground.vercel.app/images/globe.svg"
+				"url": "https://seo-playground.vercel.app/public/globe.svg"
 			}
 		},
 		"url": `https://seo-playground.vercel.app/blog/${slug}`
