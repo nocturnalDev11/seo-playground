@@ -6,7 +6,7 @@ export default function Home() {
 			<Seo
 				title="Home | SEO Playground"
 				description="Learn and test SEO in a static Next.js site"
-				canonical="https://your-site.vercel.app"
+				canonical="https://seo-playground.vercel.app/"
 			/>
 			<main>
 				<h1>Welcome to My SEO Playground</h1>

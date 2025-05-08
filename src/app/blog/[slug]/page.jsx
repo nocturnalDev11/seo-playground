@@ -22,7 +22,7 @@ export default function BlogPost() {
 			<Seo
 				title={`${post.title} | SEO Playground`}
 				description={post.description}
-				canonical={`https://your-site.vercel.app/blog/${slug}`}
+				canonical={`https://seo-playground.vercel.app/blog/${slug}`}
 			/>
 			<main>
 				<h1>{post.title}</h1>

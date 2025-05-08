@@ -13,7 +13,7 @@ export default function BlogList() {
 			<Seo
 				title="Blog | SEO Playground"
 				description="List of SEO blog posts for testing Next.js SEO features."
-				canonical="https://your-site.vercel.app/blog"
+				canonical="https://seo-playground.vercel.app/"
 			/>
 			<main>
 				<h1>Blog Posts</h1>
