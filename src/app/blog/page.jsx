@@ -3,8 +3,8 @@ import Link from 'next/link';
 import Seo from '@/components/Seo.jsx';
 
 const blogPosts = [
-  { slug: 'my-first-post', title: 'My First Post' },
-  { slug: 'nextjs-seo-guide', title: 'Next.js SEO Guide' },
+	{ slug: 'my-first-post', title: 'My First Post' },
+	{ slug: 'nextjs-seo-guide', title: 'Next.js SEO Guide' },
 ];
 
 export default function BlogList() {
