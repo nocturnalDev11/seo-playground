@@ -5,7 +5,7 @@ export default function Seo({
 	title = 'My SEO Playground',
 	description = 'Learning SEO hands-on using Next.js and Laravel.',
 	canonical,
-	image = 'https://seo-playground.vercel.app/next.svg', // Replace with your default OG image
+	image = 'https://seo-playground.vercel.app/next.svg',
 	url = 'https://seo-playground.vercel.app',
 	type = 'website',
 	noIndex = false,

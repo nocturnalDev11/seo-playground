@@ -55,7 +55,6 @@ export default function BlogPost() {
 				<article className="prose prose-lg">
 				<h1 className="text-4xl font-bold mb-4">{post.title}</h1>
 				<p className="text-gray-700 dark:text-gray-300">{post.description}</p>
-				{/* Optional: Add markdown or content block here */}
 				</article>
 			</main>
 		</>
