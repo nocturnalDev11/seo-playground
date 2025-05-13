@@ -19,6 +19,7 @@ export default function Seo({
 			<meta name="robots" content={noIndex ? "noindex, nofollow" : "index, follow"} />
 
 			{/* Open Graph */}
+			<meta property="og:locale" content="en_US" />
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
 			<meta property="og:type" content={type} />
