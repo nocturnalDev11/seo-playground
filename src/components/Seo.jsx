@@ -16,7 +16,7 @@ export default function Seo({
 			<title>{title}</title>
 			<meta name="description" content={description} />
 			{canonical && <link rel="canonical" href={canonical} />}
-			{noIndex && <meta name="robots" content="noindex, nofollow" />}
+			<meta name="robots" content={noIndex ? "noindex, nofollow" : "index, follow"} />
 
 			{/* Open Graph */}
 			<meta property="og:title" content={title} />
